@@ -15,5 +15,8 @@ streamlit.text('🥝🍇 kale Spinach & Rocket Smoothie 🍌🥭')
 streamlit.text('🍌🥭Avacado Upma smoothie 🥝🍇')
 
 streamlit.header('Specials')
-streamlit.text('🍌 Pizza Upma 🥝🍇')
+import pandas
+my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
+streamlit.dataframe(my_fruit_list)
+
 
