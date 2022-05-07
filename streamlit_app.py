@@ -1,5 +1,5 @@
 import streamlit
-streamlit.title('My New Healthy Diner')
+streamlit.title('Pragna\'s  Healthy Diner')
 streamlit.header('Breakfast Menu') 
 streamlit.text('IDLI')
 streamlit.text('DOSA')
