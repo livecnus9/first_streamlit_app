@@ -13,3 +13,7 @@ streamlit.header('Make Your Orio')
 streamlit.text('🍌 Build Your Own Fruit Smoothie 🥝🍇')
 streamlit.text('🥝🍇 kale Spinach & Rocket Smoothie 🍌🥭')
 streamlit.text('🍌🥭Avacado Upma smoothie 🥝🍇')
+
+streamlit.header('Specials')
+streamlit.text('🍌 Pizza Upma 🥝🍇')
+
