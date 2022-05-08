@@ -27,7 +27,7 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 streamlit.dataframe(fruits_to_show)
 
 streamlit.header('Fruityvice Fruit Advice!') 
-fruit_choice=streamlit.text_input('what gruit would yuo like information about?','apple')
+fruit_choice=streamlit.text_input('what fruit would you like information about?','apple')
 streamlit.write('The user entered',fruit_choice)
 
 import requests
@@ -45,3 +45,6 @@ my_cur.execute("select * from pc_rivery_db.public.fruit_load_list")
 my_data_rows = my_cur.fetchall()
 streamlit.header("The Fruit list Contains")
 streamlit.dataframe(my_data_rows)
+
+add_my_fruit=streamlit.text_input('what fruit you would like to add'','apple')
+streamlit.write('The user entered',add_my_fruit)
